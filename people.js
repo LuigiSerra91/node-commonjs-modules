@@ -22,12 +22,11 @@ const hobbies = require("./hobbies.js")
 //console.log(hobbies);
 
 function returnObject(){
-    let person = names.objectNameLastName('luigi','serra')
-    let hobbie = hobbies.createdHobbies('calcio','tennis','poker')
-    return  {
-        person,
-        hobbie
+    const person = {
+        name: names.objectNameLastName('luigi','serra'),
+        hobby: hobbies.createdHobbies('calcio','tennis','poker')
     }
+    return person
 }
 
 console.log(returnObject());

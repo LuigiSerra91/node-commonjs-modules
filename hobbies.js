@@ -15,10 +15,13 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 */
 
 function createdHobbies(hobbyOne,hobbyTwo,hobbyThree){
-    return {
-        hobbies : [hobbyOne,hobbyTwo,hobbyThree]
-    }
+    const hobbie = {
+        hobbie : [hobbyOne,hobbyTwo,hobbyThree]
+    };
+     return hobbie
 }
+
+
 
 
 module.exports = {

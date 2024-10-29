@@ -16,10 +16,13 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 
 
 function objectNameLastName(firstName,lastName){
-    return {firstName : firstName,
-            lastName : lastName
-    }
+    const fullName = {firstName, lastName}
+   
+   
+    return fullName
+    
 }
+
 
 
 
