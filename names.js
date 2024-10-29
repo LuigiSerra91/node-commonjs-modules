@@ -21,7 +21,7 @@ function objectNameLastName(firstName,lastName){
     }
 }
 
-console.log(objectNameLastName('luigi', 'serra'));
+
 
 
 module.exports = {

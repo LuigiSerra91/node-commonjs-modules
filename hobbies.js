@@ -19,7 +19,7 @@ function createdHobbies(hobbyOne,hobbyTwo,hobbyThree){
         hobbies : [hobbyOne,hobbyTwo,hobbyThree]
     }
 }
-console.log(createdHobbies('ciao','bello','come va'));
+
 
 module.exports = {
     createdHobbies

@@ -16,13 +16,20 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 
 
 const names = require("./names.js")
-console.log(names);
+//console.log(names);
 
 const hobbies = require("./hobbies.js")
-console.log(hobbies);
+//console.log(hobbies);
 
 function returnObject(){
-    
+    let person = names.objectNameLastName('luigi','serra')
+    let hobbie = hobbies.createdHobbies('calcio','tennis','poker')
+    return  {
+        person,
+        hobbie
+    }
 }
 
 console.log(returnObject());
+
+  
