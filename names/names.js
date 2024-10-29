@@ -13,3 +13,15 @@ Importa la tua funzione da hobbies.js
 Crea una funzione che non ha parametri. La funzione dovrebbe restituire un oggetto con tre proprietà: firstName, lastName, hobbies.
 
 */
+
+
+function objectNameLastName(firstName,lastName){
+    return {firstName : firstName,
+            lastName : lastName
+    }
+}
+
+console.log(objectNameLastName('luigi', 'serra'));
+
+
+module.exports = objectNameLastName()
