@@ -1,10 +1,13 @@
 {
-  "name": "hobbies",
+  "name": "names",
   "version": "1.0.0",
-  "main": "hobbies.js",
+  "main": "names.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node hobbies.js"
+    "start": "node names.js",
+    "start2": "node hobbies.js",
+    "start3": "node people.js"
+
   },
   "keywords": [],
   "author": "",

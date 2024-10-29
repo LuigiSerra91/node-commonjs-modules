@@ -14,11 +14,16 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 
 */
 
-function createdHobbies(hobbyOne,hobbyTwo,hobbyThree){
-    return {
-        hobbies : [hobbyOne,hobbyTwo,hobbyThree]
+
+function objectNameLastName(firstName,lastName){
+    return {firstName : firstName,
+            lastName : lastName
     }
 }
-console.log(createdHobbies('ciao','bello','come va'));
 
-module.export = createdHobbies;
+console.log(objectNameLastName('luigi', 'serra'));
+
+
+module.exports = {
+    objectNameLastName
+}

@@ -15,13 +15,14 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 */
 
 
-function objectNameLastName(firstName,lastName){
-    return {firstName : firstName,
-            lastName : lastName
-    }
+const names = require("./names.js")
+console.log(names);
+
+const hobbies = require("./hobbies.js")
+console.log(hobbies);
+
+function returnObject(){
+    
 }
 
-console.log(objectNameLastName('luigi', 'serra'));
-
-
-module.exports = objectNameLastName()
+console.log(returnObject());
