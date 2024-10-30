@@ -26,4 +26,4 @@ function objectNameLastName(firstName,lastName){
 
 
 
-module.exports = {objectNameLastName}
+module.exports= objectNameLastName

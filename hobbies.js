@@ -24,4 +24,4 @@ function createdHobbies(hobbyOne,hobbyTwo,hobbyThree){
 
 
 
-module.exports = {createdHobbies}
+module.exports= createdHobbies
